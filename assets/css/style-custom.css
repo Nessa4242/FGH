@@ -1,0 +1,419 @@
+
+/* pgn - diferencial */
+
+/* .bloco-diferencial{
+    padding: 13.2rem 0 5.5rem;
+} */
+
+/* .bloco-diferencial h2{
+    margin-bottom: 6.9rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: #00377B;
+} */
+
+/* .bloco-diferencial h3 {
+    width: 83%;
+    padding: 1.4rem 2rem;
+    margin: 0 auto 3rem;
+    display: table;
+    font-size: 3.2rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 1.6rem;
+    background: #00377B;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    border: 1rem solid #00377B;
+} */
+
+/* .bloco-diferencial p {
+    margin-bottom: 6.3rem;
+    text-align: center;
+    font-size: 2.0rem;
+    line-height: 3.1rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+} */
+
+/* .bloco-diferencial img {
+    margin-top: 6.2rem;
+} */
+
+/* pgn - historico */
+
+/* .bloco-historico {
+    padding: 12.2rem 0 8.1rem;
+} */
+
+/* .bloco-historico h2 {
+    margin-bottom: 6.9rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color: #00377B;
+} */
+
+/* .bloco-historico p {
+    margin-bottom: 3.2rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* pgn - mapa */
+
+/* .bloco-mapa {
+    padding: 12.2rem 0;
+} */
+
+/* .bloco-mapa h2 {
+    margin-bottom: 6.8rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+} */
+
+/* .bloco-mapa p {
+    margin-bottom: 7.7rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* pgn - compliance */
+
+/* .bloco-compliance {
+    padding: 12.5rem 0 10.2rem;
+} */
+
+/* .bloco-compliance h2 {
+    margin-bottom: 6.8rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+} */
+
+/* .bloco-compliance p {
+    margin-bottom: 3.2rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* .bloco-compliance a {
+    display: table;
+    margin: 0 auto;
+    color:#00377B;
+} */
+
+/* pgn - nosso time */
+
+/* .bloco-nosso-time {
+    padding: 12.5rem 0 9.6rem;
+} */
+
+/* .bloco-nosso-time h2 {
+    margin-bottom: 6.8rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+} */
+
+/* .bloco-nosso-time p {
+    margin-bottom: 3.2rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* .bloco-nosso-time h3 {
+    display: table;
+    margin:0 auto 6.9rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    color: #000;
+} */
+
+/* pgn - prata da casa */
+
+/* .fdez-prata-da-casa {
+    padding: 12.5rem 0 9.6rem;
+} */
+
+/* .fdez-prata-da-casa h2 {
+    margin-bottom: 6.8rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+} */
+
+/* .prata-da-casa-box p {
+    margin-bottom: 3.2rem;
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* .prata-da-casa-box {
+    margin-bottom: 6.3rem;
+} */
+
+/* .fdez-prata-da-casa a.card img {
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.fdez-prata-da-casa .card {
+    margin-bottom: 6.4rem;
+    border: none;
+    background:#F5F5F5;
+}
+
+.fdez-prata-da-casa a.card h3 {
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color:#000000;
+}
+
+.fdez-prata-da-casa a.card p {
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000;
+}
+
+.fdez-prata-da-casa a.btn.btn-outline-mais {
+    display: table;
+    margin: 0 auto;
+    padding: 1rem 3rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    line-height: 0;
+    color: #fff;
+    border: 1rem solid #00377B;
+    border-radius: 0.8rem;
+    background-color: #00377B;
+} */
+
+/* pgn - espaço de educação multimídia */
+
+/* .fdez-espaco-de-educacao {
+    padding: 12.3rem 0 7.3rem ;
+}
+
+.fdez-espaco-de-educacao h2 {
+    margin-bottom: 6.8rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+}
+
+.fdez-espaco-de-educacao p {
+
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #000;
+}
+
+.fdez-recepcao {
+    margin-bottom: 6.4rem;
+}
+
+.fdez-recepcoes a.card img {
+    border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.fdez-recepcoes .card {
+    margin-bottom: 9.6rem;
+    border: none;
+    background:#F5F5F5;
+}
+
+.fdez-recepcoes a.card h3 {
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color:#000000;
+}
+
+.fdez-recepcoes a.card p {
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* pgn - quadro-de-vagas-1 */
+
+/* .fdez-quadro-de-vagas-1 {
+    padding: 14.5rem 0;
+}
+
+.fdez-quadro-de-vagas-1 h2 {
+    margin-bottom: 6.7rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 4.0rem;
+    text-align: center;
+    color:#00377B;
+}
+
+.fdez-quadro-de-vagas-1 p {
+    
+    font-family: 'nexa_lightregular', Arial, Helvetica, sans-serif;
+    font-size: 2.0rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #000;
+} */
+
+/* falta adicionar tabela */
+
+
+/*=============================
+HOSPITAL MIGUEL ARRAES
+=============================*/
+
+/* .bloco-hospital-miguel-arraes .content-interna {
+    margin-bottom: 10.8rem;
+}
+
+.box-informacoes-unidades h3 {
+.bloco-informacoes h3 {
+    margin-bottom: 6.6rem;
+    font-family: 'nexa_boldregular', Arial, Helvetica, sans-serif;
+    font-size: 3.4rem;
+    color: #2A73CE;
+}
+
+<<<<<<< HEAD
+.box-informacoes-unidades .especialidades h3{
+.bloco-informacoes ul {
+    margin-bottom: 6.3rem;
+}
+
+.bloco-informacoes h4 {
+    display: table;
+    margin: 0 auto 7.2rem;
+}
+
+.bloco-informacoes .especialidades h3{
+    text-align: end;
+}
+
+.box-informacoes-unidades .especialidades ul{
+    margin-left: 1.8rem
+}
+
+.box-informacoes-unidades .emergencia h3{
+    margin-left: 11.3rem;
+}
+
+.box-informacoes-unidades .emergencia ul{
+    margin-left: 11.5rem
+}
+
+.box-informacoes-unidades ul li {
+	list-style-type: disc;
+}
+
+.bloco-informacoes-2 h5 {
+    margin-bottom: 0.4rem;
+    text-align: center;
+}
+
+.bloco-informacoes-2 p{
+    margin-bottom: 3.6rem;
+    text-align: center;
+}
+
+.bloco-informacoes-2 {
+    margin-bottom: 2.9rem;
+} */
+
+
+/*=============================
+UPAE/UPA PETROLINA
+=============================*/
+
+/* .bloco-especialidades ul {
+    margin-bottom: 6.3rem;
+}
+
+.bloco-especialidades ul li {
+    list-style-type: disc;
+} */
+
+/*=============================
+bloco unidades especificas content-interna
+=============================*/
+/* .bloco-unidades-especificas .content-interna{
+    margin-bottom: 7.5rem;
+} */
+
+/*=============================
+Para mais informações, acesse:
+=============================*/
+/* .bloco-unidades-especificas h6 {
+    display: table;
+    margin: 0 auto 7.2rem;
+    font-size: 2.0rem;
+} */
+
+/*=============================
+bloco-funcionamento
+=============================*/
+/* .bloco-funcionamento {
+    margin-bottom: 4.7rem;
+}
+
+.bloco-funcionamento h3 {
+    margin-bottom: 2.9rem;
+}
+
+.bloco-funcionamento ul {
+    text-align: center;
+}
+
+.bloco-funcionamento ul li {
+    list-style-type: disc;
+} */
+
+/* =============================
+localização
+=============================*/
+
+/* .bloco-localizacao {
+    margin-bottom: 8.9rem
+}
+
+.telefone {
+    padding-top: 4.5rem;
+    margin-bottom: 7.6rem;
+}
+
+.bloco-localizacao .telefone img {
+    float: left;
+    margin-right: 1.9rem;
+}
+
+.bloco-localizacao .mapa img {
+    float: left;
+    margin-right: 1.9rem;
+} */

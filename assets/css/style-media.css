@@ -1,0 +1,949 @@
+/*=============================
+MEDIA QUERIES
+=============================*/
+@media (max-width: 767px) {
+    /*=============================
+    GERAL
+    =============================*/
+    h1, h2 {font-size: 3rem; line-height: 3.2rem;}
+    ul, p {font-size: 1.6rem; line-height: 2.2rem; text-align: center;}
+    .btn {
+        padding: 0.3rem 1.2rem;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        border-radius: 0.6rem;
+    }
+    .form-control {
+        height: 2.9rem;
+        padding: 0.6rem 1.3rem;
+        font-size: 1.4rem;
+    }
+    /*=============================
+    TOPO
+    =============================*/
+    .topo-social .btn-social {
+        padding: 0;
+        margin: 0;
+    }
+    .topo-social .btn-social img {
+        height: 1.5rem;
+    }
+    .topo-social .btn-social img:first-child {
+        margin-right: 0.8rem;
+    }
+    .topo-social .btn-sistemas a:last-child {
+        margin-left: 1.5rem;
+    }
+    .topo-social .btn-sistemas a {
+        padding: 0.5rem 0.6rem 0.3rem;
+        line-height: 1.2rem;
+        border-radius: 1.2rem;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        padding: 2.3rem 0 2.9rem;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        z-index: 100;
+        padding: 3rem 1rem 1rem;
+        transition: all .3s;
+        background-color: #002B5F;
+        background-image: url(../img/img-detalhe-menu-mobile.png);
+        background-position-x: center;
+        background-position-y: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .offcanvas-collapse {
+        left: 100%;
+        width: 70%;
+        overflow-y: auto;
+        visibility: hidden;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+    }
+    .nav-scroller .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        color: rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navbar-light .navbar-nav {
+        margin-top: 3rem;
+    }
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        top: 2.8rem;
+        right: 0;
+        padding: 0.1rem 0.9rem;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        background: #002B5F;
+    }
+    i.icon-bars .icon-1 , i.icon-bars .icon-2, i.icon-bars .icon-3 {
+        width: 2.4rem;
+        height: 0.1rem;
+        margin: 0.5rem 0;
+        display: block;
+        background: #ffffff;
+    }
+    .navbar-light .offcanvas-collapse .navbar-toggler {
+        padding: 0.4rem 0.9rem;
+        background: #2A73CE;
+    }
+    .navbar-light .navbar-toggler.open-tog-box {
+        right: 2rem;
+    }
+    .open-x.icon-1 {
+        position: relative;
+        top: 0.3rem;
+        transform: rotate(42deg);
+    }
+    .open-x.icon-3 {
+        position: relative;
+        top: -0.3rem;
+        transform: rotate(-42deg);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 2.4rem 0.7rem;
+        font-size: 1.8rem;
+        line-height: 1.2rem;
+        text-align: right;
+        transition: all .3s;
+    }
+    .navbar-collapse li .dropdown-menu, .navbar-collapse li:hover .dropdown-menu {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 10px;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        background: transparent!important;
+    }
+    .navbar .navbar-collapse li .dropdown-menu li a, .navbar .navbar-collapse li:hover .dropdown-menu li a {
+        padding-bottom: 2rem;
+        font-size: 1.4rem;
+        line-height: 3.2rem;
+        text-align: right;
+        color: #ffffff;
+        background: none;
+    }
+    /*=============================
+    BANNER
+    =============================*/ 
+    .bow-next, .bow-prev {
+        top: 15.5rem;
+        z-index: 10;
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+    .fdez-banner .swiper-main img {
+        height: 34.7rem;
+    }
+    .fdez-banner .swiper-pagination-bullet {
+        width: 1.5rem;
+        height: 0.7rem;
+        margin: 0 0.4rem!important;
+    }
+    /*=============================
+    INDEX
+    =============================*/ 
+    /* Geral */
+    .bg-azul {
+        padding: 0;
+        box-shadow: none;
+        color: #00377B;
+        text-align: center;
+        background: none;
+    }
+    .btn-home {
+        padding: 0.2rem 1rem 0;
+        margin: 0 auto;
+        display: table;
+        border-radius: 0.8rem;
+    }
+    /* Index Quem somos */
+    .fdez-quem-somos {
+        padding: 0.3rem 0 4rem;
+    }
+    .fdez-quem-somos h1 {
+        position: relative;
+        top: 0;
+    }
+    .ret-azul {
+        width: 6rem!important;
+        height: 1.6rem;
+    }
+    #ret-1 {
+        top: -0.2rem;
+        left: 2rem;
+    }
+    #ret-2 {
+        top: -0.9rem;
+        left: 16rem;
+    }
+    #ret-3 {
+        top: 1rem;
+        right: 3rem;
+    }
+    #ret-4 {
+        bottom: 0.1rem;
+        left: 0;
+    }
+    #ret-5 {
+        left: 30%;
+        bottom: 0;
+    }
+    #ret-6 {
+        right: 0;
+        bottom: -1rem;
+        width: 11.8rem!important;
+        height: 3rem;
+    }
+    .bloco-quem-somos img {
+        width: 90%;
+        height: 52%;
+        border-radius: 3.8rem;
+    }
+    .fdez-quem-somos .box-quem-somos, .int-single-post .redes-socias {
+        margin: 0;
+    }
+    .fdez-quem-somos .btn-home {
+        margin: 2rem auto 4.3rem;
+    }
+
+    /* Index Serviços */
+    .fdez-servicos {
+        padding: 1.1rem 0 4.4rem;
+    }
+    .fdez-servicos h1 {
+        margin-bottom: 2.4rem;
+    }
+    .fdez-servicos .card {
+        border-radius: 2.9rem;
+    }
+    .fdez-servicos .card img {
+        padding: 2rem 1.5rem 0;
+    }
+    .fdez-servicos .card .card-body {
+        padding: 1.6rem 1rem 2.4rem;
+    }
+    .fdez-servicos .card h3 {
+        margin-bottom: 1.1rem;
+        font-size: 1.8rem;
+        line-height: 1.6rem;
+    }
+    .fdez-servicos .card p {
+        line-height: 2.2rem;
+    }
+    .arrow-circle-left, .arrow-circle-right {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    /* Index Unidades */
+    .fdez-unidades {
+        padding-bottom: 2.8rem;
+    }
+    .fdez-unidades h1 {
+        margin-bottom: 1.4rem;
+    }
+    .bloco-setores .img-mapa, .bloco-campanhas .content-interna {
+        margin-bottom: 3.5rem;
+    }
+    .bloco-setores .card h3 {
+        font-size: 1.6rem;
+        line-height: 1.4rem;
+    }
+    .bloco-setores .card p {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+        text-align: left;
+    }
+    
+    /* Index Notícias */
+    .fdez-noticias {
+        padding-bottom: 2.2rem;
+    }
+    .fdez-noticias h1 {
+        width: 45.7%;
+        padding: 0.6rem 0;
+        margin: 0 auto 1rem;
+        border-radius: 1.8rem;
+    }
+    .fdez-noticias #card-ntc-1 {
+        margin-bottom: 2rem;
+    }
+    .fdez-noticias #card-ntc-2, .fdez-noticias #card-ntc-3 {
+        margin-bottom: 1rem;
+        border-radius: 2.5rem;
+    }
+    .fdez-noticias #card-ntc-2 img, .fdez-noticias #card-ntc-3 img {
+        border-radius: 2.5rem 0 0 2.5rem;
+    }
+    .bloco-noticias #card-ntc-2 .card-body, .bloco-noticias #card-ntc-3 .card-body {
+        padding: 0.6rem 1rem;
+    }
+    .fdez-noticias #card-ntc-2 h3, .fdez-noticias #card-ntc-3 h3 {
+        margin-bottom: 0.8rem;
+        font-size: 1.6rem;
+    }
+    .fdez-noticias #card-ntc-2 p, .fdez-noticias #card-ntc-3 p {
+        line-height: 1.6rem;
+    }
+    .bloco-noticias .card .card-body {
+        padding: 1.8rem 1.5rem 2.7rem;
+    }
+    .bloco-noticias .card h3 {
+        margin-bottom: 1.8rem;
+        font-size: 1.8rem;
+    }
+    .bloco-noticias .card p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    .fdez-noticias .btn-home {
+        margin-top: 2.1rem;
+    }
+
+    /* Index Trabalhe Conosco */
+    .fdez-trabalhe-conosco {
+        padding: 2.2rem 0 0;
+    }
+    .img-de-fundo-02 {
+        position: absolute;
+        bottom: 0;
+    }
+    .fdez-trabalhe-conosco .secao-overlay {
+        position: initial;
+    }
+    .fdez-trabalhe-conosco h1 {
+        margin: 0 0 2.3rem;
+        text-align: right;
+    }
+    .fdez-trabalhe-conosco h3 {
+        padding-left: 35%;
+        margin-bottom: 2.6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .fdez-trabalhe-conosco .btn-curriculo, .fdez-trabalhe-conosco .btn-vagas {
+        padding: 0.4rem 1.1rem;
+        margin: 0 0 1.2rem auto;
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    }
+    .fdez-trabalhe-conosco .btn-vagas {
+        margin-bottom: 2.9rem;
+    }
+    /*=============================
+    PÁGINAS INTERNAS
+    =============================*/
+    /* Geral */
+    .topo-interna {
+        padding-bottom: 1rem;
+    }
+    .titulo-interna {
+        margin-bottom: 2rem;
+    }
+    .content-interna p {
+        margin-bottom: 2.3rem;
+        text-align: center;
+    }
+    .box-card .card {
+        margin-bottom: 1.7rem;
+    }
+    .box-card .card h3 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+    }
+    .box-card .card p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .box-card .btn-interna-mais {
+        margin-top: 1.8rem;
+    }
+    /*=============================
+    QUEM SOMOS
+    =============================*/
+    .int-quem-somos {
+        padding-bottom: 6.8rem;
+    }
+    .int-quem-somos p {
+        margin-bottom: 2.3rem;
+    }
+    .int-quem-somos .bloco-quem-somos img {
+        margin-top: 3rem;
+    }
+    /*=============================
+    DIFERENCIAL
+    =============================*/
+    .int-diferencial, .int-mapa, .int-compliance, .int-nosso-time, .int-prata-da-casa, .int-noticias, .int-campanhas, .int-unidades-especificas, .int-quadro-de-vagas {
+        padding-bottom: 5.3rem;
+    }
+    .bloco-diferencial h3 {
+        padding: 0;
+        margin: 3.3rem auto 4rem;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #00377B;
+        background: transparent;
+    }
+    .bloco-diferencial img, .int-noticias .box-noticias .btn-interna-mais {
+        margin-top: 0;
+    }
+    /*=============================
+    HISTÓRICO
+    =============================*/
+    .int-historico, .int-sad, .int-residencias-terapeuticas, .int-hospitais, .int-upas, .int-upaes {
+        padding-bottom: 3rem;
+    }
+
+    /*=============================
+    MAPA ESTRATÉGICO
+    =============================*/
+    .int-mapa .bloco-setores .swiper-unidades {
+        margin-top: 3.5rem;
+    }
+
+    /* ============ AREA DE SERVICOS  =============== */
+    .img-int-servicos {
+        top: inherit;
+        bottom: 0;
+    }
+
+    /*=============================
+    NOSSO TIME
+    =============================*/
+    .bloco-nosso-time img {
+        margin-top: 0;
+    }
+
+    /*=============================
+    PRATA DA CASA
+    =============================*/
+    .bloco-prata-da-casa .content-interna, .bloco-educacao-multimidia .content-interna, .int-educacao-multimidia .box-recepcao img, .int-noticias .box-noticias .card {
+        margin-bottom: 3.3rem;
+    } 
+
+    /*=============================
+    ESPAÇO DE EDUCAÇÃO MULTIMÍDIA
+    =============================*/
+    .int-educacao-multimidia, .int-single-post {
+        padding-bottom: 3.6rem;
+    }
+
+    /*=============================
+    UNIDADES GERAL
+    =============================*/
+    .int-unidades-geral {
+        padding-bottom: 3.8rem;
+    }
+    .bloco-unidades-geral .img-mapa {
+        margin-bottom: 2.7rem;
+    }
+    .bloco-unidades-geral h3.tipo-unidade {
+        margin: 1.7rem 0 1.6rem;
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    /* ============ Unidades Específicas  =============== */
+    /* Geral */
+    .int-unidades-especificas .link-mais-informacoes h4 {
+        margin: 0;
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .int-unidades-especificas .link-mais-informacoes h4 a {
+        margin-top: 1.6rem;
+        display: block;
+    }
+
+    /*=============================
+    localização
+    =============================*/
+
+    .bloco-localizacao {
+        margin-top: 3.2rem;
+    }
+
+    .bloco-localizacao .telefone, .bloco-localizacao .mapa {
+        margin-bottom: 3rem;
+    }
+
+    .bloco-localizacao p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .bloco-localizacao .telefone img, .bloco-localizacao .mapa img {
+        width: 5%;
+        margin-right: 0.8rem;
+    }
+
+    /*=============================
+    Funcionamento
+    =============================*/
+    .bloco-funcionamento {
+        margin-top: 3.2rem;
+    }
+    .bloco-funcionamento h3 {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        line-height: 1.2rem;
+        text-align: center;
+        color: #00377B;
+    }
+
+    .bloco-funcionamento p, .bloco-funcionamento ul li {
+        margin: 0;
+        font-size: 1.4rem;
+    }
+
+    .bloco-funcionamento ul li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Especialidades */
+    .bloco-especialidades ul {
+        margin: 3.2rem auto;
+        display: table;
+    }
+
+    .bloco-especialidades ul li {
+        list-style-type: disc;
+    }
+
+    /*=============================
+    HOSPITAL MIGUEL ARRAES
+    =============================*/
+    .int-unidades-especificas .box-informacoes-unidades {
+        margin: 3.2rem 0 0;
+    }
+    .int-unidades-especificas .box-informacoes-unidades h3 {
+        margin-bottom: 1.6rem;
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+    .int-unidades-especificas .box-informacoes-unidades ul {
+        margin-bottom: 3.2rem;
+    }
+    .int-unidades-especificas .box-informacoes-unidades ul li {
+        line-height: 3.2rem;
+    }
+    .int-unidades-especificas .box-mais-informacoes-unidades {
+        margin-top: 3.2rem;
+    }
+    .int-unidades-especificas .box-mais-informacoes-unidades h5 {
+        margin-top: 2.5rem;
+    }
+    .int-unidades-especificas .box-mais-informacoes-unidades p, .int-unidades-especificas .box-mais-informacoes-unidades h5 {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    /*=============================
+    COMPLIANCE
+    =============================*/
+    .bloco-compliance a {
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+
+    /*=============================
+    SINGLE POST
+    =============================*/
+    .int-single-post h2 {
+        font-size: 2.6rem;
+    }
+    .int-single-post .bloco-single-post img, .int-single-post .content-interna {
+        margin-bottom: 3.2rem;
+    }
+    .int-single-post .redes-socias h3 {
+        margin-bottom: 1rem;
+        text-align: left;
+        font-size: 1rem;
+        line-height: 1.6rem;
+        text-decoration: underline;
+    }
+    .int-single-post .redes-socias a img {
+        margin: 0 0.2rem;
+        height: 2.4rem;
+    }
+    /* Notícias Relacionadas */
+    .int-single-post .relacionadas hr {
+        margin: 2.7rem 0 1.5rem;
+    }
+
+    /*=============================
+    MANUAL DA MARCA
+    =============================*/
+    .int-manual-da-marca {
+        padding-bottom: 0;
+    }
+
+    /*=============================
+    QUADRO DE VAGAS
+    =============================*/
+    .bloco-quadro-de-vagas .content-interna {
+        margin-bottom: 0;
+    }
+    .bloco-quadro-de-vagas .box-vagas label {
+        font-size: 1.6rem;
+        line-height: 1.6rem;
+    }
+    .bloco-quadro-de-vagas .box-vagas select {
+        padding: 0.3rem 0.5rem;
+        margin-right: 0.6rem;
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .bloco-quadro-de-vagas .table {
+        margin: 3.6rem 0 0;
+    }
+    .bloco-quadro-de-vagas .table td, .bloco-quadro-de-vagas .table th {
+        padding: 1.5rem 0;
+        font-size: 1.6rem;
+        line-height: 1.2rem;
+    }
+    .bloco-quadro-de-vagas .table tr > th + td {
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    }
+
+    /*=============================
+    CADASTRE SEU CURRÍCULO
+    =============================*/
+    .int-cadastre-seu-curriculo {
+        padding-bottom: 4.3rem;
+    }
+    .bloco-cadastre-seu-curriculo .form-group {
+        margin-bottom: 1rem;
+    }
+    .bloco-cadastre-seu-curriculo .btn .fa-angle-right {
+        font-size: 1rem;
+    }
+    .bloco-cadastre-seu-curriculo .btn-continuar {
+        padding: 0.3rem 0.4rem;
+        margin: 1.4rem auto 2.3rem;
+    }
+    .bloco-cadastre-seu-curriculo .btn-entrar {
+        padding: 0.3rem 1.6rem;
+        margin-top: 1.4rem;
+    }
+    .separador-formularios {
+        margin-bottom: 2rem;
+    }
+    .separador-formularios::before, .separador-formularios::after {
+        width: 45%;
+    }
+    .bloco-cadastre-seu-curriculo h3 {
+        font-size: 2.6rem;
+        line-height: 1.2rem;
+    }
+
+    /*=============================
+    RODAPE
+    =============================*/
+    footer {
+        padding: 2rem 0;
+    }
+    footer h4, footer h4>a {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    footer ul li>a, footer ul li>a:hover {
+        margin-top: 1rem;
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    footer .logo-footer, footer .agencia img {
+        width: 5rem;
+    }
+    footer .icone-local img {
+        height: 2.3rem;
+    }
+    footer .icone-local p {
+        width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    footer .agencia p {
+        margin-bottom: 0.2rem;
+        font-size: 0.9rem;
+    }
+    footer .copyright p {
+        margin-top: 2rem;
+        font-size: 0.94rem;
+        line-height: 1.2rem;
+    }
+
+    .error .clip .shadow {height: 10rem;}
+    .error .clip:nth-of-type(2) .shadow {width: 8rem;}
+    .error .clip:nth-of-type(1) .shadow, .error .clip:nth-of-type(3) .shadow {width: 10rem;}
+    .error .digit {width: 8rem; height: 8rem; line-height: 8rem; font-size: 5.2rem;}
+    .error h2 {font-size: 2.4rem;}
+    .error .msg {top: -11rem; left: 15%; width: 4rem; height: 4rem; line-height: 4rem; font-size: 1.8rem;}
+    .error span.triangle {top: 70%; right: -3%; border-left: 1rem solid #535353; border-top: .8rem solid transparent; border-bottom: .8rem solid transparent;}
+    .error .container-error-404 {height: 15rem;}
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (max-width: 991px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*=============================
+    TOPO
+    =============================*/
+    ul.navbar-nav.mr-auto {
+        text-align: center;
+    }
+    nav.navbar.navbar-expand-lg.navbar-light {
+        width: 100%;
+        padding: 2.3rem 0 2.9rem;
+    }
+    .navbar-expand-lg .navbar-collapse {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        z-index: 100;
+        padding: 3rem 1rem 1rem;
+        transition: all .3s;
+        background-color: #002B5F;
+        background-image: url(../img/img-detalhe-menu-mobile.png);
+        background-position-x: center;
+        background-position-y: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .offcanvas-collapse {
+        left: 100%;
+        width: 70%;
+        overflow-y: auto;
+        visibility: hidden;
+        transition: visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out;
+        transition: transform .3s ease-in-out, visibility .3s ease-in-out, -webkit-transform .3s ease-in-out;
+    }
+    .offcanvas-collapse.open {
+        visibility: visible;
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+    }
+    .nav-scroller .nav {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        color: rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navbar-light .navbar-nav {
+        margin-top: 3rem;
+    }
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        top: 2.8rem;
+        right: 0;
+        padding: 0.1rem 0.9rem;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        background: #002B5F;
+    }
+    i.icon-bars .icon-1 , i.icon-bars .icon-2, i.icon-bars .icon-3 {
+        width: 2.4rem;
+        height: 0.1rem;
+        margin: 0.5rem 0;
+        display: block;
+        background: #ffffff;
+    }
+    .navbar-light .offcanvas-collapse .navbar-toggler {
+        padding: 0.4rem 0.9rem;
+        background: #2A73CE;
+    }
+    .navbar-light .navbar-toggler.open-tog-box {
+        right: 2rem;
+    }
+    .open-x.icon-1 {
+        position: relative;
+        top: 0.3rem;
+        transform: rotate(42deg);
+    }
+    .open-x.icon-3 {
+        position: relative;
+        top: -0.3rem;
+        transform: rotate(-42deg);
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 1.4rem 0.7rem;
+        text-align: right;
+        transition: all .3s;
+    }
+    .navbar-collapse li .dropdown-menu, .navbar-collapse li:hover .dropdown-menu {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 10px;
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        background: transparent!important;
+    }
+    .navbar .navbar-collapse li .dropdown-menu li a, .navbar .navbar-collapse li:hover .dropdown-menu li a {
+        padding-bottom: 0;
+        text-align: right;
+        color: #ffffff;
+        background: none;
+    }
+    /*=============================
+    INDEX
+    =============================*/
+    /* Quem Somos */
+    .fdez-quem-somos {
+        padding-bottom: 10rem;
+    }
+    .fdez-quem-somos img {
+        margin-bottom: 10rem;
+    }
+    .bloco-quem-somos p {
+        text-align: center;
+    }
+    .fdez-quem-somos .btn-home {
+        margin: 5rem auto 0;
+        display: table;
+    }
+    /* Serviços */
+    .arrow-circle-left, .arrow-circle-right {
+        top: 39.5%;
+        width: 4.4rem;
+        height: 4.3rem;
+    }
+    /* Unidades */
+    .bloco-setores .card .card-body {
+        padding: 1rem;
+    }
+    .bloco-setores .card h3 {
+        font-size: 2rem;
+    }
+    .bloco-setores .card p {
+        font-size: 1.8rem;
+    }
+    /* Notícias */
+    .bloco-noticias #card-ntc-1 {
+        margin-bottom: 5rem;
+    }
+    .bloco-noticias #card-ntc-2 .card-body, .bloco-noticias #card-ntc-3 .card-body {
+        padding: 1.7rem;
+    }
+    .fdez-noticias .btn-home {
+        margin: 4rem auto 0;
+        display: table;
+    }
+    /* Trabalhe Conosco */
+    .img-de-fundo {
+        height: 71.5rem;
+    }
+    .fdez-trabalhe-conosco h1 {
+        margin: 7rem 0;
+    }
+    .fdez-trabalhe-conosco .btn-curriculo {
+        padding: 1.5rem 8.9rem;
+    }
+    .fdez-trabalhe-conosco .btn-vagas {
+        padding: 1.5rem 7.3rem;
+    }
+
+    /*=============================
+    PÁGINAS INTERNAS
+    =============================*/
+    /* Geral */
+    .topo-interna, .int-diferencial, .int-mapa, .int-compliance, .int-nosso-time, .int-prata-da-casa, .int-noticias, .int-single-post, .int-campanhas, .int-manual-da-marca, .int-quadro-de-vagas {
+        padding-bottom: 7.6rem;
+    }
+    .titulo-interna {
+        margin-bottom: 5rem;
+    }
+    /*=============================
+    QUEM SOMOS
+    =============================*/
+    .int-quem-somos, .int-historico, .int-cadastre-seu-curriculo, .int-unidades-geral, .int-sad, .int-residencias-terapeuticas, .int-hospitais, .int-upas, .int-upaes {
+        padding-bottom: 4.4rem;
+    }
+    .int-quem-somos .bloco-quem-somos img {
+        margin-bottom: 10rem;
+    }
+
+    /*=============================
+    NOTÍCIAS
+    =============================*/
+    .int-noticias .box-noticias .card .card-body {
+        padding: 3rem 2.5rem 3.2rem;
+    }
+    .int-noticias .box-noticias .card h3 {
+        font-size: 3.2rem;
+    }
+
+    /*=============================
+    RODAPÉ
+    =============================*/
+    footer .icone-local p {
+        width: 53%;
+    }
+    
+}
+
+@media (width: 1024px) {
+    /*=============================
+    TOPO
+    =============================*/
+    .navbar-light .navbar-nav .nav-link {
+        padding: 0 1.8rem 0 0;
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: inline-block!important;
+    }
+    
+}
